@@ -1,0 +1,41 @@
+:root{/*root default*/
+    --fontGoogleStaatliches: font-family: 'Staatliches', cursive;
+    --primari: #b3b031;
+    --primariDark: #89119D;
+    --secundary: #ffce00;
+    --secundaryDark: rgb(233,287,2);
+    --white: #fff;
+    --black: #000;
+}
+
+html{
+    font-size: 62.5%; /*default*/
+    box-sizing: border-box;  /*default*/
+}
+
+*, *:before, *:after {/*default all*/
+    box-sizing: inherit;
+  }
+  /*Global↓*/
+  body{
+    font-size: 16px; /*default*/    
+    background-color: var(--primari);
+}
+
+.titulo{
+    color: var(--black);
+    text-align: center;
+}
+img{
+    max-width: 100%;    
+}
+.imagen{
+    text-align: center;
+}
+h2{
+    margin-bottom: 10rem;
+}
+h2, h3, p{
+    text-align: center;
+    font-size: 2rem;
+}
